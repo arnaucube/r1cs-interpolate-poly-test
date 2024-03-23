@@ -1,0 +1,14 @@
+[package]
+name = "r1cs-interpolate-poly-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+ark-ff = "^0.4.0"
+ark-poly = "^0.4.0"
+ark-std = "^0.4.0"
+ark-relations = { version = "^0.4.0", default-features = false }
+ark-r1cs-std = { version = "0.4.0", default-features = false }
+ark-bls12-381 = { version = "0.4.0", features = ["curve"], default-features = false  }
